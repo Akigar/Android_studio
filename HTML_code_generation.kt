@@ -1,15 +1,3 @@
-package com.example.message_mail
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-}
-
 data class Message(val address: String?, val topic: String?, val message: String?, val content: String?) {
     //fun toHTML(): String = "$address ${topic}"
 }
