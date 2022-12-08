@@ -8,7 +8,7 @@ fun main() {
                 "\t<style>\n" +
                 "\t\tbody { \n" +
                 "\t\t\tbackground: rgb(80, 80, 80);\n" +
-                "font-size: 14px;\n" +
+                "\t\t\tfont-size: 14px;\n" +
                 "\t\t\tfont-family: 'Arial' ;\n" +
                 "\t\t}\n" +
                 "\t</style>\n" +
